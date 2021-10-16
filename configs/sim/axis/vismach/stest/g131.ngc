@@ -1,0 +1,6 @@
+o<g131>sub   ; sets motion.analog-out-03 to 0
+#<SWITCHKINS_PIN> = 3 
+#<kinstype> = 0
+   M68  E#<SWITCHKINS_PIN> Q#<kinstype> ; set kinstype value
+   M66  E0 L0                           ; force synch
+o<g131>endsub

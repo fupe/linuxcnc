@@ -1,0 +1,19 @@
+#<frate> = 800
+g13.1 ;ensure start at default type0
+
+
+g1 x10 f#<frate>
+g0 a0
+
+g1 x10 a20 f#<frate>
+g1 x10 a0  f#<frate>
+
+g12.1 ;type1
+
+;g1 x20 f#<frate> ; uncomment for test
+
+g1 x 10 a20 f#<frate>
+g1 x-10 a20 f#<frate>
+
+g13.1 ;restore type0
+m2
